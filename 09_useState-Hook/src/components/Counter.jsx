@@ -14,7 +14,7 @@ const Counter = () => {
       <button id="btn" onClick={handleClick}>
         Click me!
       </button>
-      
+
       {/* <button id="btn" onClick={()=> {setCount(count + 1)}}> Click me!</button> */}
     </div>
   );
