@@ -4,7 +4,9 @@ const ChildE = (props) => {
   return (
     <div>
       <h2>User Details of Child E</h2>
-      <p style={{backgroundColor:'orangered'}}>{`Hello ${props.user5.name} again!`}</p>
+      <p style={{ backgroundColor: "orangered" }}>
+        {`Hello ${props.user5.name} again!`}
+      </p>
     </div>
   );
 };

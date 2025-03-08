@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import ChildA from "./Components/ChildA";
 
 const App = () => {
-  const [userdetails, setUserdetails] = useState({ name: "Ankit", age: 25 });
+  const [userDetails, setUserdetails] = useState({ name: "Ankit", age: 25 });
   return (
     <div>
-      <ChildA user1={userdetails} />
+      <ChildA user1={userDetails} />
     </div>
   );
 };

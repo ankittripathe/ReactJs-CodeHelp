@@ -16,4 +16,4 @@ const ChildA = ({ user1 }) => {
 export default ChildA;
 
 // Notes: ChildA me props na use kr ke user1 ko destructuring kiya gaya hai
-// step:2  childB ke liye user1 ko user2 me nejha ja rha hai taki confusion na ho
+// step:2  childB ke liye user1 ko user2 me kiya jha ja rha hai taki confusion na ho
