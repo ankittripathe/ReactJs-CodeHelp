@@ -1,18 +1,16 @@
-import React, { useState } from 'react'
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
-import Hero from './Components/Hero'
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Hero from "./Components/Hero";
 
 const App = () => {
   return (
     <div>
-        <Navbar/>
-        
-        <Hero/>
-        <Footer/>
-        
+      <Navbar />
+      <Hero />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

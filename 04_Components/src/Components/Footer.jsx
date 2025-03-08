@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div id='footer'>
-        <p>All Right Reserved to E-Vazaar.com</p>
+        <p>All Right Reserved to E-Mart.com</p>
     </div>
   )
 }

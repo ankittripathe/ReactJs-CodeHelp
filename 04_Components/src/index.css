@@ -10,7 +10,5 @@ body{
   width: 100vw;
   background-color: black;
   color: white;
-  display: flex;
-  justify-content: center;
   font-size: large;
 }
