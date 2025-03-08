@@ -1,13 +1,13 @@
 import React from "react";
-import ankit_photo from '../assets/ankit_photo.jpeg'
+import msdhoni from '../assets/msdhoni.jpg'
 import './UserCard.css'
 
 const Usercard = () => {
   return (
     <div className="user-container">
-      <p className="user-name">Ankit Tripathi</p>
-      <img className="user-img" src={ankit_photo} alt="photo" />
-      <p className="user-desc">Description of Ankit Tripathi</p>
+      <p className="user-name">Ms Dhoni</p>
+      <img className="user-img" src={msdhoni} alt="photo" />
+      <p className="user-desc">Former Indian Captain</p>
     </div>
   );
 };
