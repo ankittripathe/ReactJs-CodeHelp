@@ -1,5 +1,5 @@
-import React from 'react'
-import { Fragment } from 'react'
+import React from "react";
+import { Fragment } from "react";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <h3>Topic:- Fragment</h3>
       </div>
     </Fragment>
-  )
-}
+  );
+};
 
-export default App
+export default App;
