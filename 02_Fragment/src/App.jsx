@@ -12,11 +12,10 @@ const App = () => {
       </div>
 
       <div>
-        <h3 style={{color: 'red'}}>Topic: Fragment</h3>
+        <h3 style={{ color: "red" }}>Topic: Fragment</h3>
       </div>
     </>
   );
 };
 
 export default App;
-
