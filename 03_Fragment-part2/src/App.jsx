@@ -5,7 +5,7 @@ const App = () => {
   return (
     <Fragment>
       <div>
-        <h1>E-Vazaar</h1>
+        <h1>E-Mart</h1>
       </div>
 
       <div>
