@@ -3,9 +3,7 @@ import "./App.css";
 import UserCard from "./components/UserCard";
 import DhoniPic from "./assets/DhoniPic.jpeg";
 import RainaPic from "./assets/RainaPic.jpg";
-import MaccullumPic from './assets/MaccullumPic.jpg'
-
-
+import MaccullumPic from "./assets/MaccullumPic.jpg";
 
 const App = () => {
   return (
@@ -28,7 +26,7 @@ const App = () => {
         name="Brand McCullum"
         disc="New-Zealand Cricketer"
         image={MaccullumPic}
-        style={{ "border-radius": "10px", "color": 'blue', 'font-weight': '600' }}
+        style={{ "border-radius": "10px", color: "blue", "font-weight": "600" }}
       />
     </div>
   );
