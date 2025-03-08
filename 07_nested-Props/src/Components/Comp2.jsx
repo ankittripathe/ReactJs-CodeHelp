@@ -1,11 +1,11 @@
 import React from "react";
 import Comp3 from "./Comp3";
 
-const Comp2 = ({user}) => {
+const Comp2 = ({ user }) => {
   return (
     <div>
       <h1>Component 2</h1>
-      <Comp3 user= {user} />
+      <Comp3 user={user} />
     </div>
   );
 };

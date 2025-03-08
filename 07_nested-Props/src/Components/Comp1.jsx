@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Comp2 from "./Comp2";
 
 const Comp1 = () => {
-  const [user, setUser] = useState("simple Boy");
+  const [user, setUser] = useState("Ankit Tripathi");
 
   return (
     <>

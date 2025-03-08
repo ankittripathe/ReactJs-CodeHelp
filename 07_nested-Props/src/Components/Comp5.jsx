@@ -1,6 +1,6 @@
 import React from "react";
 
-const Comp5 = ({user}) => {
+const Comp5 = ({ user }) => {
   return (
     <>
       <h1>Component 5</h1>
