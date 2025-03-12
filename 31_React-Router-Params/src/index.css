@@ -4,13 +4,14 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
+  font-size: larger;
 }
 
-button{
+button {
   padding: 7px 10px;
   font-size: large;
   border-radius: 5px;
-  background-color:crimson;
+  background-color: crimson;
   color: white;
   margin: 5px;
   border: none;
