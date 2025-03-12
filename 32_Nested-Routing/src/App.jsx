@@ -5,11 +5,11 @@ import About from "./Components/About";
 import Dashboard from "./Components/Dashboard";
 import Navbar from "./Components/Navbar";
 import ParamComp from "./Components/ParamComp";
-import { Children } from "react";
 import Courses from "./Components/Courses";
 import MockTest from "./Components/MockTest";
 import Reports from "./Components/Reports";
 import NotFound from "./Components/NotFound";
+import { Children } from "react";
 
 const router = createBrowserRouter([
   {
