@@ -12,7 +12,7 @@ const App = () => {
   const handleDecrement = () => {
     setCount(count - 1);
   };
-  
+
   return (
     <div>
       <Button
