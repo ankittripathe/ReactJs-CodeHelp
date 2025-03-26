@@ -7,7 +7,7 @@ const Comp1 = () => {
   return (
     <>
       <h1>{`Hello ${user}!`}</h1>
-      <Comp2 user={user}/>
+      <Comp2 user={user} />
     </>
   );
 };
