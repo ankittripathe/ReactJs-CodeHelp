@@ -5,7 +5,10 @@ const Card = (props) => {
   return (
     <div>
       <input type="text" onChange={(evt) => props.setName(evt.target.value)} />
-      <p>Name state variable ki value inside {props.title} : {props.name}</p>
+      
+      <p>
+        Name state variable ki value inside {props.title} : {props.name}
+      </p>
     </div>
   );
 };
