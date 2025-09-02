@@ -1,4 +1,3 @@
-import React from "react";
 import msdhoni from "../assets/msdhoni.jpg";
 import "./UserCard.css";
 
