@@ -1,9 +1,8 @@
-import React from "react";
-import "./App.css";
 import UserCard from "./components/UserCard";
 import DhoniPic from "./assets/DhoniPic.jpeg";
 import RainaPic from "./assets/RainaPic.jpg";
 import MaccullumPic from "./assets/MaccullumPic.jpg";
+import "./App.css";
 
 const App = () => {
   return (
