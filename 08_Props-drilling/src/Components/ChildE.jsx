@@ -13,7 +13,6 @@ const ChildE = (props) => {
 
 export default ChildE;
 
-
 /*
  ***  Destructuring krunga toh aaise hoga. Bina destructuring ke upar kiya gaya hai. ***
  

@@ -1,4 +1,3 @@
-import React from "react";
 import ChildE from "./ChildE";
 
 const ChildD = ({ user4 }) => {
