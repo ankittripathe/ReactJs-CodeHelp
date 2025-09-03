@@ -1,7 +1,11 @@
 import React from "react";
 
 const GrandChild = ({ message }) => {
-  return <h2>{message}</h2>;
+  return (
+    <div>
+      <h1>{message}</h1>
+    </div>
+  );
 };
 
 export default GrandChild;

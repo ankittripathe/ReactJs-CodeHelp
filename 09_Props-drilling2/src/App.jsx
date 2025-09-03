@@ -1,8 +1,11 @@
-import React from "react";
 import Parents from "./Components/Parents";
 
 const App = () => {
-  return <Parents message="Hello, Ankit!" />;
+  return (
+    <div>
+      <Parents message="Hello, Ankit" />
+    </div>
+  );
 };
 
 export default App;
