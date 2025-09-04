@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./components/Button";
 import { useState } from "react";
 
@@ -21,7 +20,7 @@ const App = () => {
         incrementText="Plus"
         decrementText="Minus"
       >
-        <h1>{count}</h1>
+        <h1>Count:{count}</h1>
       </Button>
     </div>
   );
