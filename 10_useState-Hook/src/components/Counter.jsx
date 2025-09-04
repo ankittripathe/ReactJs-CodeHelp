@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Counter.css";
 
 const Counter = () => {
@@ -12,7 +12,7 @@ const Counter = () => {
     <div className="counter-container">
       <p id="para">You have clicked {count} times</p>
       <button id="btn" onClick={handleClick}>
-        Click me!
+        Click Me
       </button>
 
       {/* <button id="btn" onClick={()=> {setCount(count + 1)}}> Click me!</button> */}
