@@ -12,9 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  background-color: aliceblue;
-}
-
-button {
-  padding: 5px 10px;
+  background-color: black;
+  color: aliceblue;
 }
