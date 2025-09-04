@@ -1,28 +1,22 @@
-import React from "react";
 import Card from "./components/Card";
+import "./App.css";
 
 const App = () => {
   return (
     <>
-      <div
-        style={{ backgroundColor: "crimson", padding: "20px", margin: "20px" }}
-      >
+      <div className="cardOne">
         <Card name="Ankit Tripathi">
           <h1>Best Web Dev Course</h1>
-          <p>Trying to be Consistant in this</p>
+          <p>Trying to be Consistant in This</p>
           <p>Will Complete the Course Soon</p>
         </Card>
       </div>
 
-      <div
-        style={{ backgroundColor: "orange", padding: "20px", margin: "20px" }}
-      >
+      <div className="cardTwo">
         <Card children="Mein Ek children hu"></Card>
       </div>
 
-      <div
-        style={{ backgroundColor: "green", padding: "20px", margin: "20px" }}
-      >
+      <div className="cardThree">
         <Card children="Mein Ek children hu">
           Hello Jee, Kaise ho sare // overRight kr dega children ko
         </Card>
