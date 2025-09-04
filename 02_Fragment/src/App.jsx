@@ -1,14 +1,15 @@
 import React from "react";
 
 const App = () => {
+  const channel = "Code Help";
   return (
     <>
       <div>
         <h1>Best React Course</h1>
       </div>
 
-      <div>
-        <h2>From Code Help</h2>
+      <div style={{ color: "green" }}>
+        <h1>{channel}</h1>
       </div>
 
       <div>
