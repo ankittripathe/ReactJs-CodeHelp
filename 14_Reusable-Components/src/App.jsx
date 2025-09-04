@@ -12,11 +12,13 @@ const App = () => {
         image={DhoniPhoto}
         description="Former Indian Captain"
       />
+
       <UserCard
         name="Raina"
         image={RainaPhoto}
         description="Indian Batting Allrounder"
       />
+      
       <UserCard
         name="Watson"
         image={WatsonPhoto}

@@ -11,6 +11,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(134, 189, 207);
+  background-color: black;
   color: white;
 }
