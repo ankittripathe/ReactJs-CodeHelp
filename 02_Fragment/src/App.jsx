@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => {
-  const channel = "Code Help";
+  const YoutubeChannel = "Code Help";
   return (
     <>
       <div>
@@ -9,7 +9,7 @@ const App = () => {
       </div>
 
       <div style={{ color: "green" }}>
-        <h1>{channel}</h1>
+        <h1>{YoutubeChannel}</h1>
       </div>
 
       <div>
