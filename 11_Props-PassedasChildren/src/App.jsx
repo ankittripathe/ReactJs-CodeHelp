@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <div className="cardOne">
-        <Card name="Ankit Tripathi">
+        <Card name="Ankit Tripathi" children="Mein vi Ek chldren hu">
           <h1>Best Web Dev Course</h1>
           <p>Trying to be Consistant in This</p>
           <p>Will Complete the Course Soon</p>
