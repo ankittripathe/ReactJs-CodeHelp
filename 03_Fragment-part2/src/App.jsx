@@ -4,7 +4,7 @@ const App = () => {
   return (
     <Fragment>
       <div>
-        <h1 style={{color:'yellow', fontSize:'2.5rem'}}>E-Mart</h1>
+        <h1 style={{ color: "yellow", fontSize: "2.5rem" }}>E-Mart</h1>
       </div>
 
       <div>
