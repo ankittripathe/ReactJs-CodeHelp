@@ -2,8 +2,9 @@ import { useState } from "react";
 import ChildInput from "./components/ChildInput";
 import Display from "./components/Display";
 
-function App() {
-  const [text, setText] = useState(""); // lifted state lives here (parent)
+const App = () => {
+  // lifted state lives here (parent)
+  const [text, setText] = useState("");
 
   return (
     <div className="flex flex-col gap-1">
@@ -12,6 +13,6 @@ function App() {
       <Display text={text} />
     </div>
   );
-}
+};
 
 export default App;
