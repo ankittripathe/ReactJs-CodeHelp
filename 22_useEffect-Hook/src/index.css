@@ -1,20 +1,31 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
 }
 
-button{
-  padding: 5px 15px;
-  font-size: 20px;
+button {
+  background-color: orangered;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
