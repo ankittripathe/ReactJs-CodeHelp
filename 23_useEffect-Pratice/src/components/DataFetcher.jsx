@@ -1,18 +1,21 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const DataFetcher = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // run only on 1st render
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
         setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
       });
   }, []);
-  //it will run only on 1st render
 
   return (
     <div>

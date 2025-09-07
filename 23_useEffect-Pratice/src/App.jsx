@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
-import LoggerComponents from "./components/LoggerComponents";
-import TimerComponents from "./components/TimerComponents";
-import DataFetcher from "./components/DataFetcher";
-import ResizeComponents from "./components/ResizeComponents";
+import { useEffect, useState } from "react";
+import Counter from "./components/Counter";
+import Timer from "./components/Timer";
 import MultiEffectComponents from "./components/MultiEffectComponents";
+import ResizeComponents from "./components/ResizeComponents";
+import DataFetcher from "./components/DataFetcher";
 
 const App = () => {
   return (
     <div>
-      {/* <LoggerComponents/> */}
-      {/* <TimerComponents/> */}
-      {/* <DataFetcher/> */}
+      {/* <Counter/> */}
+      {/* <Timer/> */}
+      {/* <MultiEffectComponents/> */}
       {/* <ResizeComponents/> */}
-      <MultiEffectComponents/>
+      <DataFetcher/>
     </div>
   );
 };

@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const ResizeComponents = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+  // run on first render
   useEffect(() => {
     const handlerResize = () => {
       console.log("Event Listner Added");
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener("resize", handlerResize);
 
     return () => {
@@ -16,7 +16,6 @@ const ResizeComponents = () => {
       window.removeEventListener("resize", handlerResize);
     };
   }, []);
-  //it will run on first render
 
   return (
     <div>
