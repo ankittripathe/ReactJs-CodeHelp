@@ -1,10 +1,16 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { UserContext } from "../App";
 
 const ChildC = () => {
-  const user = useContext(UserContext);
+  const userDetails = useContext(UserContext);
 
-  return <div>data: {user.name}</div>;
+  return (
+    <div>
+      <h2>Name: {userDetails.name}</h2>
+      <h2>Age: {userDetails.age}</h2>
+      <h2>Position: {userDetails.role}</h2>
+    </div>
+  );
 };
 
 export default ChildC;
