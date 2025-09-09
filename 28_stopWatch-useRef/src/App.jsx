@@ -1,25 +1,26 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 const App = () => {
   const [time, setTime] = useState(0);
 
+  // create useRef
   let timeRef = useRef(null);
 
-  function startTimer() {
+  const startTimer = () => {
     timeRef.current = setInterval(() => {
-      setTime((time) => time + 1);   // setTime(time => time + 1);
+      setTime((time) => time + 1); // setTime(time => time + 1);
     }, 1000);
-  }
+  };
 
-  function stopTimer() {
+  const stopTimer = () => {
     clearInterval(timeRef.current);
     timeRef.current = null;
-  }
+  };
 
-  function resetTimer() {
+  const resetTimer = () => {
     stopTimer();
     setTime(0);
-  }
+  };
 
   return (
     <div>
