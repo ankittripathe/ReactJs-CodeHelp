@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../App";
 
-const ChildC = () => {
+const Component1 = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   const toogleTheme = () => {
@@ -14,9 +14,9 @@ const ChildC = () => {
 
   return (
     <div>
-      <button onClick={toogleTheme}>Change Theme</button>
+      <button onClick={toogleTheme}>Change Color</button>
     </div>
   );
 };
 
-export default ChildC;
+export default Component1;

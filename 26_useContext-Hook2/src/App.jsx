@@ -1,11 +1,14 @@
 import React, { createContext, useState } from "react";
 import Child1 from "./Components/Child1";
 
+// Step1. created UserContext
 const UserContext = createContext();
+// Step2: Export it
+export { UserContext };
 
 const App = () => {
-  // const [user, setUser] = useState("Ankit");
   const [user, setUser] = useState({name:'Ankit', age:24, isMarried: false});
+
   return (
     <div>
       <UserContext.Provider value={user}>
@@ -18,4 +21,3 @@ const App = () => {
 
 export default App;
 
-export { UserContext };
