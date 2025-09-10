@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
   background-color: black;
@@ -16,7 +16,10 @@ body{
   font-size: large;
 }
 
-button{
+button {
   padding: 5px 14px;
   font-size: large;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: orangered;
 }
