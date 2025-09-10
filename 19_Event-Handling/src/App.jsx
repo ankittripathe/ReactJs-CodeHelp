@@ -1,42 +1,43 @@
-import React from "react";
-import './App.css'
+import "./App.css";
 
 const App = () => {
-  //! (1) h1
-  function handleMouseOver() {
+  // (1) h1
+  const handleMouseOver = () => {
     alert("MouseOver on Heading-1");
-  }
+  };
 
-  //! (2) button
-  function handleClick() {
-    alert("clicked on button");
-  }
+  // (2) button
+  const handleClickBtn = () => {
+    alert("clicked on Button");
+  };
 
-  //! (3) input
-  function handleInputChange(evt) {
-    console.log("Value till now:", evt.target.value);
-  }
+  // (3) input
+  const handleInputChange = (evt) => {
+    console.log("Value till Now:", evt.target.value);
+  };
 
-  //! form
-  function handlerSubmit(evt){
-    evt.preventDefault()
+  // (4) form
+  const handlerSubmit = (evt) => {
+    evt.preventDefault();
     // I am writing my custom behaviour down
-    alert('Form Submitted')
-  } 
+    alert("Form Submitted");
+  };
 
   return (
-    <div>
-      <h1
-        onMouseOver={handleMouseOver}
-        style={{ marginBlock: "20px", color: "blue" }}
-      >
-        Heading-1
+    <div className="app-container">
+      <h1 onMouseOver={handleMouseOver} style={{ color: "blue" }}>
+        Heading 1
       </h1>
 
-      <button onClick={handleClick} style={{marginBlock:'20px'}}>click me</button>
+      <button onClick={handleClickBtn}>click Me</button>
 
+      {/* form */}
       <form onSubmit={handlerSubmit}>
-        <input type="text" placeholder="Enter your Name" onChange={handleInputChange}  />
+        <input
+          type="text"
+          placeholder="Enter your Name"
+          onChange={handleInputChange}
+        />
         <button type="submit">Submit</button>
       </form>
     </div>
