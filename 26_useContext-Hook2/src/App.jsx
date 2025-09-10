@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import { createContext, useState } from "react";
 import Child1 from "./Components/Child1";
 
 // Step1. created UserContext
