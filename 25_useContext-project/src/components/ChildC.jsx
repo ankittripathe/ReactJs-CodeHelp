@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ThemeContext } from "../App";
 
 const ChildC = () => {
-  const { theme, setTheme } = useContext(ThemeContext);
+  const {theme, setTheme} = useContext(ThemeContext)
 
   const toogleTheme = () => {
     if (theme === "light") {
