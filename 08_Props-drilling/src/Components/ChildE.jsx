@@ -13,8 +13,9 @@ const ChildE = (props) => {
 
 export default ChildE;
 
+
 /*
- ***  Destructuring krunga toh aaise hoga. Bina destructuring ke upar kiya gaya hai. ***
+ Notes: Destructuring krunga toh aaise hoga. without Destructuring done Above.
  
 const ChildE = ({user5}) => {
   return (
