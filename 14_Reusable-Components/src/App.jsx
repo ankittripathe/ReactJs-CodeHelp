@@ -18,7 +18,7 @@ const App = () => {
         image={RainaPhoto}
         description="Indian Batting Allrounder"
       />
-      
+
       <UserCard
         name="Watson"
         image={WatsonPhoto}

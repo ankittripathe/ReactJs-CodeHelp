@@ -1,4 +1,4 @@
-import './UserCard.css'
+import "./UserCard.css";
 
 const UserCard = ({ name, image, description }) => {
   return (
