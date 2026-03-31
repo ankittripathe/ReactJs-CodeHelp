@@ -1,11 +1,11 @@
-import '../Hero/Hero.css'
+import "../Hero/Hero.css";
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className="hero">
       <h1>This is Main section</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
