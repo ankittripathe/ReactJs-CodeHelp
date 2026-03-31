@@ -25,7 +25,7 @@ const App = () => {
         name="Brand McCullum"
         disc="New-Zealand Cricketer"
         image={MaccullumPic}
-        style={{ "border-radius": "10px", color: "blue", "font-weight": "600" }}
+        style={{ "border-radius": "10px", color: "blue", "fontWeight": "600" }}
       />
     </div>
   );
