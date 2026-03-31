@@ -20,10 +20,13 @@ const App = () => {
 
 export default App;
 
-/* Notes: Lifting state means moving the state from a child component up to the parent component, so multiple children can share and use the same data.
+/* Notes:
+- Lifting State Up in React is a core concept used when multiple components need to share the same data.
+➡️ Moving state from a child component to their closest common parent
+➡️ So that multiple components can access and stay in sync
 
 🔹 Why used?
-It’s used to avoid duplicate states,
-keep data synchronized,
-and let components communicate through the parent.
+- It’s used to avoid duplicate states,
+- keep data synchronized,
+- And let components communicate through the parent.
 */
