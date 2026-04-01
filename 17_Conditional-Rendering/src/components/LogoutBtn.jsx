@@ -1,10 +1,10 @@
 import React from "react";
 
-const LogoutBtn = () => {
+const LogoutBtn = ({handlerChange}) => {
   return (
     <div>
       <h1>Logout Kro Jaldi</h1>
-      <button>Logout</button>
+      <button onClick={handlerChange}>Logout</button>
     </div>
   );
 };

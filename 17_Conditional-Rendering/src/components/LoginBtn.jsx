@@ -1,10 +1,10 @@
 import React from "react";
 
-const LoginBtn = () => {
+const LoginBtn = ({handlerChange}) => {
   return (
     <div>
       <h1>Login Karo Pahle</h1>
-      <button>Login</button>
+      <button onClick={handlerChange}>Login</button>
     </div>
   );
 };
