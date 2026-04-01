@@ -8,7 +8,9 @@ const App = () => {
 
   return (
     <div className="flex flex-col gap-1">
-      <h1 className="text-blue-800 text-xl font-bold">Lifting State Example</h1>
+      <h1 className="text-blue-800 text-xl font-bold">
+        Lifting State Example
+      </h1>
       <ChildInput text={text} setText={setText} />
       <Display text={text} />
     </div>
