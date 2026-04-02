@@ -1,20 +1,19 @@
 import React from "react";
 
-const AlertButton = (props) => {
+const AlertButton = ({ message, children }) => {
   return (
     <div>
-      <button onClick={() => alert(props.message)}>{props.children}</button>
+      <button onClick={() => alert(message)}>
+        <h1>{children}</h1>
+      </button>
     </div>
   );
 };
 
 export default AlertButton;
 
-/*
----- Destructuring ----
-const AlertButton = ({message, children})=> {
-  return <button onClick={() => alert(message)}> {children} </button>;
-};
-
-export default AlertButton;
+/* Destructuring
+   const AlertButton = ({message, children})=> {
+    return ()
+  }  
 */
