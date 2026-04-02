@@ -2,48 +2,52 @@ import { useEffect, useState } from "react";
 
 const App = () => {
   const [count, setCount] = useState(0);
-  const [total, setTotal] = useState(1);  // for multiple dependencies
+  const [total, setTotal] = useState(1); // for multiple dependencies
 
   // Case:1 -> runs on every render/mount
   // useEffect(() => {
-  //   alert("I will run on each render");
+  //   console.log('I will run on every render')
   // });
+
 
   // Case:2 -> runs on only first render/mount
   // useEffect(() => {
-  //   alert("I will run on only 1st render");
+  //    console.log("I will run on only 1st render");
   // }, []);
+
 
   // Case:3 -> runs on every render when dependencies is updated/changed
   // useEffect(() => {
-  //   alert("I will run every time when count is updated");
+  //    console.log("I will run every time when count is updated");
   // }, [count]);
+
 
   // Case:4 -> for multiple dependencies
   // useEffect(() => {
-  //   alert("I will run every time when count/total is updated");
+  //   console.log("I will run every time when count/total is updated");
   // }, [count, total]);
+
 
   // Case:5 -> cleanup function
   useEffect(() => {
-    alert("Count is updated");
-    // console.log('Count is updated');
+    // alert("Count is updated");
+    console.log('Count is updated');
 
     return () => {
-      alert("Count is unmounted from UI");
-      // console.log('Count is unmounted from UI');
+      // alert("Count is unmounted from UI");
+      console.log('Count is unmounted from UI');
     };
   }, [count]);
 
   return (
     <div className="container">
       <div>
-        <h3> Count:{count}</h3>
+        <h1> Count: {count}</h1>
         <button onClick={() => setCount(count + 1)}>Update Count</button>
       </div>
 
       <div>
-        <h3>Total:{total}</h3>
+        <h1>Total: {total}</h1>
         <button onClick={() => setTotal(total + 1)}>Update Total</button>
       </div>
     </div>
@@ -52,8 +56,9 @@ const App = () => {
 
 export default App;
 
+
 /* NOTES: 
-🔹 useEffect Hook is used to hadle side effects in functional components.
+🔹 useEffect Hook is used to handle side effects in functional Components.
 Side Effect is any operation that affects something outside the scope of a function.
 Example:-
 Why useEffect are used
