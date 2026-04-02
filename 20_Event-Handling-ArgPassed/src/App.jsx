@@ -6,21 +6,18 @@ const App = () => {
   };
 
   return (
-    <>
-      <div>
-        <h3>Event handling with Argument Passed</h3>
-      </div>
+    <div className="flex flex-col gap-6 items-center text-3xl">
+      <h1>Event handling with Argument Passed</h1>
 
-      <div style={{ textAlign: "center", margin: "20px" }}>
-        <button
-          onClick={() => {
-            hanlderClick("React Developer");
-          }}
-        >
-          click me
-        </button>
-      </div>
-    </>
+      <button
+        className="bg-orange-600 text-black text-2xl  px-2 py-1 rounded"
+        onClick={() => {
+          hanlderClick("React Developer");
+        }}
+      >
+        click me
+      </button>
+    </div>
   );
 };
 
