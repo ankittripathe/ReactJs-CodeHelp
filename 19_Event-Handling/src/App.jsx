@@ -1,18 +1,18 @@
-import "./App.css";
+import React from "react";
 
 const App = () => {
   // (1) h1
-  const handleMouseOver = () => {
+  const handlerMouseOver = () => {
     alert("MouseOver on Heading-1");
   };
 
   // (2) button
-  const handleClickBtn = () => {
+  const handlerClickBtn = () => {
     alert("clicked on Button");
   };
 
   // (3) input
-  const handleInputChange = (evt) => {
+  const handlerInputChange = (evt) => {
     console.log("Value till Now:", evt.target.value);
   };
 
@@ -24,21 +24,35 @@ const App = () => {
   };
 
   return (
-    <div className="app-container">
-      <h1 onMouseOver={handleMouseOver} style={{ color: "blue" }}>
-        Heading 1
+    <div className="flex flex-col items-center justify-center gap-20 mt-40">
+      <h1
+        className="text-3xl bg-white px-26 py-2 rounded-md text-pink-800 font-bold"
+        onMouseOver={handlerMouseOver}
+      >
+        Heading-1
       </h1>
 
-      <button onClick={handleClickBtn}>click Me</button>
+      <button
+        className="bg-amber-600 px-4 py-1.5 text-2xl text-black rounded-md"
+        onClick={handlerClickBtn}
+      >
+        click Me
+      </button>
 
       {/* form */}
-      <form onSubmit={handlerSubmit}>
+      <form onSubmit={handlerSubmit} className="flex gap-1">
         <input
+          className="bg-white text-black px-2 py-1.5 rounded-md text-2xl"
           type="text"
-          placeholder="Enter your Name"
-          onChange={handleInputChange}
+          placeholder="Enter your Name..."
+          onChange={handlerInputChange}
         />
-        <button type="submit">Submit</button>
+        <button
+          className="bg-amber-600 px-4 py-1.5 text-2xl text-black rounded-md"
+          type="submit"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
