@@ -2,11 +2,11 @@ import { useState } from "react";
 import { createContext } from "react";
 import ChildA from "./components/ChildA";
 
-//step1: Create context and export it
+// Step1: Create context & export it
 const UserContext = createContext();
-//step2: Wrap all the child inside a provider
-//step3: Pass value
-//step4: consumer ke ander jake consume karlo
+// Step2: Wrap all the child inside a provider
+// Step3: Pass value
+// Step4: consumer ke ander jake consume karlo
 
 const App = () => {
   const [user, setUser] = useState({
@@ -36,6 +36,8 @@ export { UserContext };
 
 /*
 What is useContext?
-(1) allows you to use context values directly in your components without using props drilling.
+(1) useContet allows you to use context values directly in your components without using props drilling.
 (2) Props drilling means passing data from parent → child → grandchild →  even if intermediate components dont need it.
+
+The Context API in React.js is a way to share data globally across components without passing props manually at every level (prop drilling).
 */
