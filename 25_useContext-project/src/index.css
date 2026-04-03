@@ -1,20 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+@import "tailwindcss";
 
-body{
+body {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
-  color: white;
-}
-
-button{
-  padding: 5px 10px;
+  background-color: aliceblue;
+  font-family: Verdana, Tahoma, sans-serif;
 }

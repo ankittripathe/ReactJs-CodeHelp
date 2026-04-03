@@ -1,11 +1,11 @@
-import ChildB from './ChildB'
+import ChildB from "./ChildB";
 
 const ChildA = () => {
   return (
     <div>
-        <ChildB/>
+      <ChildB />
     </div>
-  )
-}
+  );
+};
 
-export default ChildA
+export default ChildA;
