@@ -19,7 +19,7 @@ const Timer = () => {
 
   return (
     <div>
-      <h1>Seconds:{seconds}</h1>
+      <h1>Seconds: {seconds}</h1>
     </div>
   );
 };

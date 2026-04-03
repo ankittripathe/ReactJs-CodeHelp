@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Counter from "./components/Counter";
 import Timer from "./components/Timer";
 import MultiEffectComponents from "./components/MultiEffectComponents";
@@ -9,10 +8,10 @@ const App = () => {
   return (
     <div>
       {/* <Counter/> */}
-      {/* <Timer/> */}
+      {/* <Timer /> */}
       {/* <MultiEffectComponents/> */}
-      {/* <ResizeComponents/> */}
-      <DataFetcher/>
+      <ResizeComponents/>
+      {/* <DataFetcher/> */}
     </div>
   );
 };
