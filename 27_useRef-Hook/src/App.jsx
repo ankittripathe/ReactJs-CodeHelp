@@ -41,9 +41,9 @@ const App = () => {
 export default App;
 
 /*
-The useRef Hook allows you to persist values between renders.
-It can be used to store a mutable value that does not cause a re-render when updated.
-It can be used to access/change a DOM element directly.
+- The useRef Hook allows you to persist values between renders.
+- It can be used to store a mutable value that does not cause a re-render when updated.
+- It can be used to access/change a DOM element directly.
 
 useRef() only returns one item. It returns an Object called current.
 When we initialize useRef we set the initial value: useRef(0).
